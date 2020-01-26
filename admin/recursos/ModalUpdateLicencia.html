@@ -1,0 +1,79 @@
+
+<div class="panel panel-warning label-warning">
+    <div class="panel-heading"><span class="lead">Ingrese Licencia</span> </div>
+    <div class="panel-body">
+                  <table class="table" id="tablaLicencia">
+                      <tr class="fila-fijaLicencia">
+                          <td>         
+                           <div class="row "> 
+                           <div class="col-xs-6  col-sm-4 col-lg-2">
+                                <label for="inputMarca">Nª de Licencia :</label>
+                                <div class="form-group  has-success">
+                                 <input id="numero_lic" maxlength="12" type="text"    class="form-control" name="numero_lic[]" 
+                                                                            placeholder="Ingrese la Licencia"  />
+                                 <input id="documento_lic" onkeypress="return justNumbers(event);" maxlength="12" type="hidden"    class="form-control" name="documento_lic[]"  placeholder="Ingrese el número de documento"  />
+                                   <input id="id_lic" maxlength="12" type="hidden"   class="form-control" name="id_lic" placeholder="Ingrese la"  />
+                                </div>
+                                 <div class="respuestalicencia">
+                                          <p id="resultado" class=""></p>
+                                      </div>
+                            </div>
+<!--
+                            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 Mostrtarlicencia">
+                               <label for="inputMarca"></label>
+                                  <div class="form-group  has-success">
+                                   
+                                   
+                                      
+                                    
+                                    </div>
+                                   
+                            </div>
+-->
+                            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                                     <label for="inputMarca">Clase :</label>
+                                       <div class="form-group  has-success">
+                                             <select id="clase_lic" name="clase_lic[]" class=" form-control ">
+                                             <option disabled selected></option>
+                                              </select>
+                                      </div>
+                              </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                                <label for="inputMarca">Categoria :</label>
+                                 <div class="form-group  has-success">
+                                  <select id="categoria_lic" class="form-control" name="categoria_lic[]"  ></select>
+                                </div>
+                            </div> 
+                            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <label for="inputMarca">Fecha de Revalidación :</label>
+                            <div class="form-group  has-success">
+                               <input id="fecha_reval_lic" maxlength="12" type="date"   class="form-control" name="fecha_reval_lic[]"  placeholder="Ingrese categoria"  />
+                            </div>
+                         </div> 
+                         </div> 
+                            <div class="row">     
+                            <div class="col-xs-12 col-md-6  left">
+                                <label for="inputMarca">Dirección : </label>
+                                <div class="form-group  has-warning">
+                                    <input id="direccion_lic" type="text" class="form-control" name="direccion_lic[]"  placeholder="Ingrese dirección"  />
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6  left">
+                                <label for="inputMarca">Retrinciones : </label>
+                                <div class="form-group  has-warning">
+                                     <input id="restrinciones_lic" type="text" class="form-control" name="restrinciones_lic[]"  placeholder="Ingrese alguna restrinción"  />
+                                  </div>
+                            </div> 
+                             </div>
+                          </td>
+                         <td class="EliminarLicencia"><button class="btn btn-danger" id="EliminaLicencia" type="button" title="eliminar licencia" ><i class="fa fa-trash" aria-hidden="true"></i> </button></td>
+                      </tr>
+                  </table>
+                  
+                   <button id="adicional" type="button" class="btn btn-success" title="Agregar mas licencia">Agregar <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+    
+    </div>
+</div>
+
+
+    

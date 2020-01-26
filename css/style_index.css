@@ -1,0 +1,159 @@
+ p, h3,h4{
+     font-family: Orator Std;
+}
+ h1 ,h2{
+     font-family:'Josefin Slab', serif;
+     
+    }
+
+.logoheader img{
+    
+        
+  width: 100px;
+  
+    border-radius: 5px;
+     
+}
+.navbar{
+     position: relative;
+      max-height: 100px;
+   background: rgba(255,255,255,.9);
+}
+
+
+.navbar ul {
+    padding: 25px;
+    
+}
+
+#myNavbar> ul{
+      background: rgba(255,255,255,.9);
+}
+@media screen and (max-width: 1200px){
+    .navbar{  position: relative;  height: auto; }
+    
+.navbar ul{
+   
+padding: 0px;     
+}
+ .logoheader img{
+  width: 50px;
+  
+     
+}
+
+}
+
+#headindex li:hover a {
+     background: rgba(255,255,255,.9);
+    color: #333;  
+}
+#headindex li a{
+     font-family:'Josefin Slab', serif;
+    font-weight:bolder;
+    color: #333;  
+    font-size: 15px;
+}
+.cuerpo1{
+ background: #FF6500;
+ color:#fff;
+   
+   
+}.cuerpo2{
+ background: #0099FF;
+ color:#fff
+}.cuerpo3{
+ background: #FF2020;
+ color:#fff;
+}.cuerpo4{
+ background: #E1C313;
+ color:#fff;
+}.cuerpo5{
+ background: #61372B;
+ color:#fff;
+}.cuerpo6{
+ background: #A1A173;
+ color:#fff;
+}
+.jumbotron{
+    
+}
+ .thumbnail p  {
+    color: #333;
+} .thumbnail  h1  {
+    color: #333;
+}
+.panel-body  {
+    color: brown;
+  
+}
+.panel-heading{
+      color: dodgerblue;
+}
+.panel-footer {
+    color: dodgerblue;
+    
+}
+footer {
+ background-color: #2d2d30;
+ color: #f5f5f5;
+ padding: 32px;
+ font-family:sans-serif;
+}
+footer a {
+  color: #f5f5f5;  
+}footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
+.respuestalicencia p{ color: red;}/*.respuestalicencia{ color: red;}*/
+.opacidad-oscuro{background: 
+rgba(0,0,0,.7);}
+
+.opacidad{ 
+    background:  #fff; 
+    border-radius: 8px;
+    color : #333;
+}
+.opacidad2{ background: rgba(255,255,255,.9); 
+    border-radius: 5px; padding: 10px;}
+.retorno{right:15px;
+    bottom: 80px; 
+    position:fixed;
+    z-index: 100; width: 50px;} 
+.logo{position: relative;
+    background: #fff;
+    width: 100%;
+    top: 25px;
+    padding: 25px;
+    height: 250px;
+    border-radius: 5px
+ }
+.opacidad img{ 
+	
+   
+}
+.retorno a{position:absolute;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+   margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    background:rgba(255,255,255,.9); 
+}.retorno a span{
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+	 
+}
+
+body{
+    background-image: url("../files/fondos/Taxi_Cars.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;    
+}/*.body-cuerpo{  background: rgba(0,255,255,.2);}*/
+
+
+

@@ -1,0 +1,121 @@
+
+
+<div class="panel panel-success label-success">
+    <div class="panel-heading"><span class="lead">Ingrese Tarjeta  unica de Circulación</span> </div>
+    <div class="panel-body">
+      
+    
+                  <table class="table" id="tablaCirculacion">
+                      <tr class="fila-fijaCirculacion">
+                          <td>         
+                           <div class="row "> 
+                           
+                            <div class=" col-xs-6  col-sm-4 col-lg-2">
+                               <label for="inputMarca">Nº Placa</label>
+                                  <div class="form-group  has-success">
+                                    <input id="placaT"  maxlength="12" type="text"   class="form-control" name="placaT[]"  placeholder="Ingrese el número de Placa"  />
+                                      <input id="id_circulacion" maxlength="12" type="hidden"   class="form-control" name="id_circulacion" placeholder="Ingrese la"  />
+                                      <input id="dniT" maxlength="12" type="hidden"  onkeypress="return justNumbers(event);"  class="form-control" name="dniT[]" placeholder="Ingrese la"  />
+                                    </div>
+                            </div>
+                            <div class="col-xs-6  col-sm-4 col-lg-2">
+                                <label for="inputMarca">Año de Fabricación</label>
+                                <div class="form-group  has-success">
+                                 <input id="f_fabricacionT" maxlength="12" type="date"   class="form-control" name="f_fabricacionT[]" 
+                                                                            />
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                                     <label for="inputMarca">Nª  de Asiento :</label>
+                                       <div class="form-group  has-success">
+                                             <input id="asientoT" type="text" name="asientoT[]" placeholder="Ingrese la cantidad de  asientos" class=" form-control ">
+                                             
+                                             
+                                      </div>
+                              </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                                <label for="inputMarca">Nª de  Motor</label>
+                                 <div class="form-group  has-success">
+                                  <input id="motorT" type="text" class="form-control" name="motorT[]"  placeholder="Ingrese Nª Motor" >
+                                </div>
+                            </div> 
+                            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                            <label for="inputMarca">Nª Eje / Nª Ruedas</label>
+                            <div class="form-group  has-success">
+                               <input id="ejes_ruedasT" maxlength="12" type="text"   class="form-control" name="ejes_ruedasT[]"  placeholder="Ingrese Nª de Ejes"  />
+                            </div>
+                         </div>       
+                            <div class="col-xs-12 col-md-6 col-lg-2  left">
+                                <label for="inputMarca">Nª Chasis / VIN </label>
+                                <div class="form-group  has-warning">
+                                    <input id="chasisT" type="text" class="form-control" name="chasisT[]"  placeholder="Ingrese Nª de Chasis"  />
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6  col-lg-2 left">
+                                <label for="inputMarca">Modelo Vehículo  </label>
+                                <div class="form-group  has-warning">
+                                     <input id="modeloT" type="text" class="form-control" name="modeloT[]"  placeholder="Ingrese Modelo  del Vehículo"  />
+                                  </div>
+                            </div>
+                               <div class="col-xs-12 col-md-6  col-lg-2 left">
+                                <label for="inputMarca">Marca Vehiculo  </label>
+                                <div class="form-group  has-warning">
+                                     <input id="marcaT" type="text" class="form-control" name="marcaT[]"  placeholder="Ingrese Marca del Vehículo"  />
+                                  </div>
+                            </div>
+                               <div class="col-xs-12 col-md-6 col-lg-2  left">
+                                <label for="inputMarca">Carroceria  </label>
+                                <div class="form-group  has-warning">
+                                     <input id="carroceriaT" type="text" class="form-control" name="carroceriaT[]"  placeholder="Ingrese Carroceria"  />
+                                  </div>
+                            </div>
+                               <div class="col-xs-12 col-md-6   col-lg-2 left">
+                                <label for="inputMarca">Largo / Ancho / Alto(m)</label>
+                                <div class="form-group  has-warning">
+                                     <input id="dimensionT" type="text" class="form-control" name="dimensionT[]"  placeholder="4.37/1.69/1.47"  />
+                                  </div>
+                            </div>
+                               <div class="col-xs-12 col-md-6  col-lg-2 left">
+                                <label for="inputMarca">Peso Neto</label>
+                                <div class="form-group  has-warning">
+                                     <input id="peso_netoT" type="text" class="form-control" name="peso_netoT[]"  placeholder="Ingrese el Peso Neto"  />
+                                  </div>
+                            </div> 
+                               <div class="col-xs-12 col-md-6  col-lg-2 left">
+                                <label for="inputMarca">Peso Bruto</label>
+                                <div class="form-group  has-warning">
+                                     <input id="peso_brutoT" type="text" class="form-control" name="peso_brutoT[]"  placeholder=" Ingrese el Peso Bruto"  />
+                                  </div>
+                            </div> 
+                                <div class="col-xs-12 col-md-6  col-lg-2 left">
+                                <label for="inputMarca">Carga Util</label>
+                                <div class="form-group  has-warning">
+                                     <input id="carga_utilT" type="text" class="form-control" name="carga_utilT[]"  placeholder="Ingrese Carga  Util"  />
+                                  </div>
+                            </div><div class="col-xs-12 col-md-6  col-lg-2 left">
+                                <label for="inputMarca">F. vencimiento</label>
+                                <div class="form-group  has-warning">
+                                     <input id="f_vencimientoT" type="date" class="form-control" name="f_vencimientoT[]"   />
+                                  </div>
+                            </div> 
+                             
+                              </div>
+                                <div class="row">
+                                    <?php  include_once "recursos/Update_InspeccionTecnica.html"; ?>                                 
+                                 </div>
+                          </td>
+                         <td class=" EliminarCirculacion"><button class="btn btn-danger" id="EliminaCirculacion" type="button" title="eliminar Tarjeta de Circulacion" ><i class="fa fa-trash" aria-hidden="true"></i> </button></td>
+                      </tr>
+                     
+                      
+                  </table>
+                  
+                   <button id="adicionalCirculacion" type="button" class="btn btn-warning" title="Agregar mas Circulacion">Agregar <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+    
+ 
+        
+    </div>
+</div>
+
+
+    
