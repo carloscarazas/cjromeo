@@ -83,6 +83,10 @@
       <h2>Nuestros valores</h2><br>
       <h3><p><strong>MISIÓN:</strong> Prestar un buen servicio <b> eficiente y de calidad </b> a nuetros socios estratégicos para ellos también puedan ofrecerlos a sus clientes ya que ellos son el motivo y motor de crecimiento de nuestra empresa.   </p></h3><br>
       <h3><p><strong>VISIÓN:</strong> Ser una empresa lider en ventas de seguros vehículares y alquiler de vehículos para servicio de  taxi.</p></h3>
+    </div> <div class="col-sm-8">
+      <h2>Nuestros valores</h2><br>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto commodi sunt excepturi est qui ad natus? Fugiat placeat non voluptas, modi neque. Incidunt, ipsa quis animi ut. Nostrum, blanditiis, libero!</h3><br>
+      <h3><p><strong>VISIÓN:</strong> Ser una empresa lider en ventas de seguros vehículares y alquiler de vehículos para servicio de  taxi.</p></h3>
     </div>
   </div>
 </div>
